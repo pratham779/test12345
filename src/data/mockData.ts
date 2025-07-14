@@ -82,10 +82,42 @@ export const mockSKUs: SKU[] = [
     currentSupplier: 'TCL Electronics (Shenzhen)',
     hsCode: '8528.72.64'
   },
+  {
+    id: 'WM006',
+    name: 'Nintendo Switch OLED Console',
+    category: 'Electronics',
+    origin: 'Japan',
+    spend: 35000000,
+    tariffImpact: 8.2,
+    geoRisk: 25,
+    totalRisk: 42,
+    action: 'maintain',
+    isDomestic: false,
+    currentMargin: 15.8,
+    domesticAvailable: false,
+    currentSupplier: 'Nintendo Co. Ltd',
+    hsCode: '9504.50.00'
+  },
+  {
+    id: 'WM007',
+    name: 'Dell Inspiron Desktop Computer',
+    category: 'Electronics',
+    origin: 'Malaysia',
+    spend: 22000000,
+    tariffImpact: 15.2,
+    geoRisk: 45,
+    totalRisk: 68,
+    action: 'monitor',
+    isDomestic: false,
+    currentMargin: 19.4,
+    domesticAvailable: true,
+    currentSupplier: 'Dell Technologies Malaysia',
+    hsCode: '8471.41.01'
+  },
 
   // Apparel - Real Walmart clothing items
   {
-    id: 'WM006',
+    id: 'WM008',
     name: 'Great Value Men\'s Cotton T-Shirt 3-Pack',
     category: 'Apparel',
     origin: 'China',
@@ -101,7 +133,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '6109.10.00'
   },
   {
-    id: 'WM007',
+    id: 'WM009',
     name: 'Athletic Works Men\'s Running Shoes',
     category: 'Apparel',
     origin: 'Vietnam',
@@ -117,7 +149,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '6404.11.90'
   },
   {
-    id: 'WM008',
+    id: 'WM010',
     name: 'Faded Glory Men\'s Regular Fit Jeans',
     category: 'Apparel',
     origin: 'Bangladesh',
@@ -133,7 +165,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '6203.42.40'
   },
   {
-    id: 'WM009',
+    id: 'WM011',
     name: 'Hanes Men\'s Boxer Briefs 6-Pack',
     category: 'Apparel',
     origin: 'United States',
@@ -149,7 +181,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '6107.11.00'
   },
   {
-    id: 'WM010',
+    id: 'WM012',
     name: 'Time and Tru Women\'s Denim Jacket',
     category: 'Apparel',
     origin: 'Mexico',
@@ -164,10 +196,42 @@ export const mockSKUs: SKU[] = [
     currentSupplier: 'Grupo Textil Mexicano',
     hsCode: '6204.42.40'
   },
+  {
+    id: 'WM013',
+    name: 'Wonder Nation Kids\' Sneakers',
+    category: 'Apparel',
+    origin: 'Indonesia',
+    spend: 16800000,
+    tariffImpact: 18.5,
+    geoRisk: 55,
+    totalRisk: 72,
+    action: 'monitor',
+    isDomestic: false,
+    currentMargin: 48.2,
+    domesticAvailable: true,
+    currentSupplier: 'PT Indonesia Footwear',
+    hsCode: '6404.19.90'
+  },
+  {
+    id: 'WM014',
+    name: 'No Boundaries Women\'s Yoga Pants',
+    category: 'Apparel',
+    origin: 'Sri Lanka',
+    spend: 13200000,
+    tariffImpact: 22.1,
+    geoRisk: 65,
+    totalRisk: 78,
+    action: 'shift',
+    isDomestic: false,
+    currentMargin: 52.8,
+    domesticAvailable: true,
+    currentSupplier: 'Ceylon Textiles Ltd',
+    hsCode: '6204.63.35'
+  },
 
   // Home & Garden - Walmart home products
   {
-    id: 'WM011',
+    id: 'WM015',
     name: 'Mainstays 14-Piece Kitchen Knife Set',
     category: 'Home & Garden',
     origin: 'China',
@@ -183,7 +247,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '8211.91.50'
   },
   {
-    id: 'WM012',
+    id: 'WM016',
     name: 'Better Homes & Gardens 16-Piece Dinnerware Set',
     category: 'Home & Garden',
     origin: 'Turkey',
@@ -199,7 +263,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '6911.10.37'
   },
   {
-    id: 'WM013',
+    id: 'WM017',
     name: 'Ozark Trail 4-Person Dome Tent',
     category: 'Home & Garden',
     origin: 'United States',
@@ -215,7 +279,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '6306.22.90'
   },
   {
-    id: 'WM014',
+    id: 'WM018',
     name: 'Mainstays 5-Shelf Storage Unit',
     category: 'Home & Garden',
     origin: 'China',
@@ -230,10 +294,26 @@ export const mockSKUs: SKU[] = [
     currentSupplier: 'Guangzhou Furniture Co.',
     hsCode: '9403.20.00'
   },
+  {
+    id: 'WM019',
+    name: 'Hyper Tough Power Drill Set',
+    category: 'Home & Garden',
+    origin: 'Taiwan',
+    spend: 11800000,
+    tariffImpact: 12.8,
+    geoRisk: 42,
+    totalRisk: 58,
+    action: 'monitor',
+    isDomestic: false,
+    currentMargin: 35.6,
+    domesticAvailable: true,
+    currentSupplier: 'Taiwan Tool Manufacturing',
+    hsCode: '8467.21.00'
+  },
 
   // Food & Beverage - Walmart grocery items
   {
-    id: 'WM015',
+    id: 'WM020',
     name: 'Great Value Organic Whole Wheat Pasta',
     category: 'Food & Beverage',
     origin: 'United States',
@@ -249,7 +329,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '1902.19.20'
   },
   {
-    id: 'WM016',
+    id: 'WM021',
     name: 'Great Value Colombian Coffee Beans 2lb',
     category: 'Food & Beverage',
     origin: 'Colombia',
@@ -265,7 +345,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '0901.21.00'
   },
   {
-    id: 'WM017',
+    id: 'WM022',
     name: 'Great Value Frozen Mixed Vegetables 32oz',
     category: 'Food & Beverage',
     origin: 'Mexico',
@@ -281,7 +361,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '0710.80.97'
   },
   {
-    id: 'WM018',
+    id: 'WM023',
     name: 'Great Value Canned Tomatoes 28oz',
     category: 'Food & Beverage',
     origin: 'Italy',
@@ -299,7 +379,7 @@ export const mockSKUs: SKU[] = [
 
   // Automotive - Walmart auto products
   {
-    id: 'WM019',
+    id: 'WM024',
     name: 'SuperTech Full Synthetic Motor Oil 5W-30 5qt',
     category: 'Automotive',
     origin: 'United States',
@@ -315,7 +395,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '2710.12.25'
   },
   {
-    id: 'WM020',
+    id: 'WM025',
     name: 'EverStart Maxx Lead Acid Automotive Battery',
     category: 'Automotive',
     origin: 'South Korea',
@@ -331,7 +411,7 @@ export const mockSKUs: SKU[] = [
     hsCode: '8507.10.80'
   },
   {
-    id: 'WM021',
+    id: 'WM026',
     name: 'Douglas All-Season Tire 225/60R16',
     category: 'Automotive',
     origin: 'China',
@@ -352,15 +432,15 @@ export const mockCategories: Category[] = [
   {
     name: 'Electronics',
     highRiskCountries: ['China'],
-    lowRiskCountries: ['South Korea', 'United States'],
+    lowRiskCountries: ['South Korea', 'United States', 'Japan', 'Malaysia'],
     riskScore: 82,
     amountAtRisk: 171000000,
     action: 'shift'
   },
   {
     name: 'Apparel',
-    highRiskCountries: ['China', 'Bangladesh'],
-    lowRiskCountries: ['United States', 'Mexico'],
+    highRiskCountries: ['China', 'Bangladesh', 'Sri Lanka'],
+    lowRiskCountries: ['United States', 'Mexico', 'Vietnam', 'Indonesia'],
     riskScore: 78,
     amountAtRisk: 79500000,
     action: 'shift'
@@ -368,7 +448,7 @@ export const mockCategories: Category[] = [
   {
     name: 'Home & Garden',
     highRiskCountries: ['China'],
-    lowRiskCountries: ['United States'],
+    lowRiskCountries: ['United States', 'Turkey', 'Taiwan'],
     riskScore: 71,
     amountAtRisk: 17700000,
     action: 'monitor'
@@ -391,60 +471,53 @@ export const mockCategories: Category[] = [
   }
 ];
 
-// SKU-specific supplier alternatives mapping
+// Comprehensive SKU-specific supplier alternatives mapping
 export const skuSupplierMapping: { [key: string]: string[] } = {
-  'WM001': ['SUP002', 'SUP003'], // Samsung TV - has domestic and NAFTA options
-  'WM002': ['SUP001'], // iPhone - very limited alternatives (only India assembly)
-  'WM003': [], // HP Laptop - already domestic, no alternatives needed
-  'WM004': ['SUP004', 'SUP005'], // Earbuds - domestic and Vietnam options
-  'WM005': [], // TCL TV - no realistic alternatives (Chinese brand)
-  'WM006': ['SUP006', 'SUP007'], // T-Shirts - strong domestic and NAFTA options
-  'WM007': [], // Running Shoes - Vietnam is optimal for footwear
-  'WM008': ['SUP008', 'SUP009'], // Jeans - domestic and Guatemala options
-  'WM009': [], // Hanes - already domestic, no alternatives
-  'WM010': [], // Denim Jacket - Mexico NAFTA is optimal
-  'WM011': ['SUP010'], // Kitchen Knives - domestic option available
-  'WM012': [], // Dinnerware - Turkey specializes in ceramics
-  'WM013': [], // Tent - already domestic
-  'WM014': ['SUP013'], // Storage Unit - domestic furniture option
-  'WM015': [], // Pasta - already domestic
-  'WM016': [], // Coffee - Colombia is the source
-  'WM017': ['SUP014'], // Frozen Vegetables - US agricultural option
-  'WM018': ['SUP015'], // Canned Tomatoes - California option
-  'WM019': [], // Motor Oil - already domestic
-  'WM020': ['SUP016'], // Battery - domestic option available
-  'WM021': ['SUP011', 'SUP012'], // Tires - domestic and Canada options
+  // Electronics
+  'WM001': ['SUP001', 'SUP002', 'SUP003', 'SUP004'], // Samsung TV - multiple options
+  'WM002': ['SUP005', 'SUP006', 'SUP007'], // iPhone - limited but realistic alternatives
+  'WM003': ['SUP008', 'SUP009'], // HP Laptop - already domestic, some alternatives
+  'WM004': ['SUP010', 'SUP011', 'SUP012', 'SUP013'], // Earbuds - many alternatives
+  'WM005': ['SUP014', 'SUP015'], // TCL TV - limited alternatives (Chinese brand)
+  'WM006': ['SUP016'], // Nintendo - very limited (Japanese exclusive)
+  'WM007': ['SUP017', 'SUP018', 'SUP019'], // Dell Desktop - good alternatives
+  
+  // Apparel
+  'WM008': ['SUP020', 'SUP021', 'SUP022', 'SUP023', 'SUP024'], // T-Shirts - many options
+  'WM009': ['SUP025', 'SUP026', 'SUP027'], // Running Shoes - Vietnam is good, some alternatives
+  'WM010': ['SUP028', 'SUP029', 'SUP030', 'SUP031'], // Jeans - many alternatives
+  'WM011': [], // Hanes - already domestic, brand-specific
+  'WM012': ['SUP032', 'SUP033'], // Denim Jacket - Mexico NAFTA is optimal, few alternatives
+  'WM013': ['SUP034', 'SUP035', 'SUP036'], // Kids Sneakers - good alternatives
+  'WM014': ['SUP037', 'SUP038', 'SUP039'], // Yoga Pants - many alternatives
+  
+  // Home & Garden
+  'WM015': ['SUP040', 'SUP041', 'SUP042'], // Kitchen Knives - good alternatives
+  'WM016': ['SUP043', 'SUP044'], // Dinnerware - Turkey specializes, few alternatives
+  'WM017': [], // Tent - already domestic
+  'WM018': ['SUP045', 'SUP046', 'SUP047'], // Storage Unit - many alternatives
+  'WM019': ['SUP048', 'SUP049', 'SUP050'], // Power Drill - good alternatives
+  
+  // Food & Beverage
+  'WM020': [], // Pasta - already domestic
+  'WM021': ['SUP051'], // Coffee - Colombia is source, limited alternatives
+  'WM022': ['SUP052', 'SUP053'], // Frozen Vegetables - some alternatives
+  'WM023': ['SUP054', 'SUP055'], // Canned Tomatoes - some alternatives
+  
+  // Automotive
+  'WM024': [], // Motor Oil - already domestic
+  'WM025': ['SUP056', 'SUP057'], // Battery - some alternatives
+  'WM026': ['SUP058', 'SUP059', 'SUP060', 'SUP061'], // Tires - many alternatives
 };
 
 export const mockSuppliers: Supplier[] = [
-  // WM002 - iPhone alternatives (very limited, mostly assembly locations)
-  {
-    id: 'SUP001',
-    country: 'India',
-    marginChange: -2.8,
-    distance: 12500,
-    transitDays: 24,
-    logisticsScore: 78,
-    isRecommended: true,
-    isDomestic: false,
-    tariffRate: 18.5,
-    supplierType: 'international',
-    supplierName: 'Foxconn India (Chennai)',
-    capacity: 'Medium',
-    qualityScore: 92,
-    costPerUnit: 485.20,
-    annualSavings: -3500000,
-    marginIncrease: -2.8,
-    sustainabilityScore: 72,
-    carbonFootprint: 9.8,
-    environmentalRating: 'B' as const
-  },
-
+  // Electronics Suppliers
+  
   // WM001 - Samsung TV alternatives
   {
-    id: 'SUP002',
+    id: 'SUP001',
     country: 'United States - Tennessee',
-    marginChange: +1.8,
+    marginChange: +2.8,
     distance: 1100,
     transitDays: 3,
     logisticsScore: 96,
@@ -456,16 +529,16 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'High',
     qualityScore: 98,
     costPerUnit: 425.80,
-    annualSavings: 810000,
-    marginIncrease: 1.8,
+    annualSavings: 1260000,
+    marginIncrease: 2.8,
     sustainabilityScore: 89,
     carbonFootprint: 2.4,
     environmentalRating: 'A' as const
   },
   {
-    id: 'SUP003',
-    country: 'Mexico',
-    marginChange: +0.5,
+    id: 'SUP002',
+    country: 'Mexico - Tijuana',
+    marginChange: +1.2,
     distance: 2100,
     transitDays: 7,
     logisticsScore: 87,
@@ -473,22 +546,173 @@ export const mockSuppliers: Supplier[] = [
     isDomestic: false,
     tariffRate: 2.1,
     supplierType: 'nafta',
-    supplierName: 'Samsung Tijuana',
+    supplierName: 'Samsung Tijuana Manufacturing',
     capacity: 'Medium',
     qualityScore: 94,
     costPerUnit: 398.50,
-    annualSavings: 225000,
-    marginIncrease: 0.5,
+    annualSavings: 540000,
+    marginIncrease: 1.2,
     sustainabilityScore: 81,
     carbonFootprint: 4.1,
     environmentalRating: 'B' as const
   },
-
-  // WM004 - Earbuds alternatives
+  {
+    id: 'SUP003',
+    country: 'Taiwan',
+    marginChange: +0.8,
+    distance: 7200,
+    transitDays: 16,
+    logisticsScore: 89,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.5,
+    supplierType: 'international',
+    supplierName: 'Taiwan Electronics Manufacturing',
+    capacity: 'High',
+    qualityScore: 96,
+    costPerUnit: 385.20,
+    annualSavings: 360000,
+    marginIncrease: 0.8,
+    sustainabilityScore: 84,
+    carbonFootprint: 6.2,
+    environmentalRating: 'B' as const
+  },
   {
     id: 'SUP004',
+    country: 'Thailand',
+    marginChange: -0.5,
+    distance: 8900,
+    transitDays: 19,
+    logisticsScore: 82,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 12.3,
+    supplierType: 'international',
+    supplierName: 'Thai Electronics Co.',
+    capacity: 'Medium',
+    qualityScore: 88,
+    costPerUnit: 365.80,
+    annualSavings: -225000,
+    marginIncrease: -0.5,
+    sustainabilityScore: 76,
+    carbonFootprint: 7.8,
+    environmentalRating: 'C' as const
+  },
+
+  // WM002 - iPhone alternatives (limited but realistic)
+  {
+    id: 'SUP005',
+    country: 'India - Chennai',
+    marginChange: -1.8,
+    distance: 12500,
+    transitDays: 24,
+    logisticsScore: 78,
+    isRecommended: true,
+    isDomestic: false,
+    tariffRate: 18.5,
+    supplierType: 'international',
+    supplierName: 'Foxconn India (Chennai)',
+    capacity: 'Medium',
+    qualityScore: 92,
+    costPerUnit: 485.20,
+    annualSavings: -2250000,
+    marginIncrease: -1.8,
+    sustainabilityScore: 72,
+    carbonFootprint: 9.8,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP006',
+    country: 'Brazil',
+    marginChange: -3.2,
+    distance: 5200,
+    transitDays: 18,
+    logisticsScore: 74,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 22.1,
+    supplierType: 'international',
+    supplierName: 'Foxconn Brazil',
+    capacity: 'Low',
+    qualityScore: 89,
+    costPerUnit: 495.80,
+    annualSavings: -4000000,
+    marginIncrease: -3.2,
+    sustainabilityScore: 68,
+    carbonFootprint: 8.9,
+    environmentalRating: 'C' as const
+  },
+  {
+    id: 'SUP007',
+    country: 'Vietnam',
+    marginChange: -2.1,
+    distance: 8900,
+    transitDays: 21,
+    logisticsScore: 81,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 15.2,
+    supplierType: 'international',
+    supplierName: 'Vietnam Assembly Co.',
+    capacity: 'Medium',
+    qualityScore: 90,
+    costPerUnit: 478.50,
+    annualSavings: -2625000,
+    marginIncrease: -2.1,
+    sustainabilityScore: 71,
+    carbonFootprint: 8.2,
+    environmentalRating: 'B' as const
+  },
+
+  // WM003 - HP Laptop alternatives (already domestic)
+  {
+    id: 'SUP008',
     country: 'United States - California',
-    marginChange: +3.2,
+    marginChange: +0.8,
+    distance: 2200,
+    transitDays: 4,
+    logisticsScore: 94,
+    isRecommended: false,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'HP San Diego Facility',
+    capacity: 'Medium',
+    qualityScore: 97,
+    costPerUnit: 520.30,
+    annualSavings: 256000,
+    marginIncrease: 0.8,
+    sustainabilityScore: 91,
+    carbonFootprint: 2.1,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP009',
+    country: 'Canada - Ontario',
+    marginChange: +0.3,
+    distance: 1800,
+    transitDays: 5,
+    logisticsScore: 92,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 0.8,
+    supplierType: 'nafta',
+    supplierName: 'HP Canada Manufacturing',
+    capacity: 'Medium',
+    qualityScore: 95,
+    costPerUnit: 515.80,
+    annualSavings: 96000,
+    marginIncrease: 0.3,
+    sustainabilityScore: 88,
+    carbonFootprint: 3.2,
+    environmentalRating: 'A' as const
+  },
+
+  // WM004 - Earbuds alternatives (many options)
+  {
+    id: 'SUP010',
+    country: 'United States - California',
+    marginChange: +4.2,
     distance: 2200,
     transitDays: 4,
     logisticsScore: 94,
@@ -500,16 +724,37 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'Medium',
     qualityScore: 96,
     costPerUnit: 18.90,
-    annualSavings: 576000,
-    marginIncrease: 3.2,
+    annualSavings: 756000,
+    marginIncrease: 4.2,
     sustainabilityScore: 92,
     carbonFootprint: 1.8,
     environmentalRating: 'A' as const
   },
   {
-    id: 'SUP005',
+    id: 'SUP011',
+    country: 'Mexico - Guadalajara',
+    marginChange: +2.1,
+    distance: 1900,
+    transitDays: 6,
+    logisticsScore: 88,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Mexican Audio Systems',
+    capacity: 'High',
+    qualityScore: 91,
+    costPerUnit: 16.20,
+    annualSavings: 378000,
+    marginIncrease: 2.1,
+    sustainabilityScore: 83,
+    carbonFootprint: 3.1,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP012',
     country: 'Vietnam',
-    marginChange: -0.8,
+    marginChange: +0.8,
     distance: 8900,
     transitDays: 19,
     logisticsScore: 83,
@@ -521,18 +766,173 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'High',
     qualityScore: 87,
     costPerUnit: 12.40,
-    annualSavings: -144000,
-    marginIncrease: -0.8,
+    annualSavings: 144000,
+    marginIncrease: 0.8,
     sustainabilityScore: 69,
     carbonFootprint: 7.2,
     environmentalRating: 'C' as const
   },
-
-  // WM006 - T-Shirt alternatives
   {
-    id: 'SUP006',
+    id: 'SUP013',
+    country: 'South Korea',
+    marginChange: +1.5,
+    distance: 6800,
+    transitDays: 15,
+    logisticsScore: 91,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.2,
+    supplierType: 'international',
+    supplierName: 'Samsung Audio Division',
+    capacity: 'High',
+    qualityScore: 95,
+    costPerUnit: 19.80,
+    annualSavings: 270000,
+    marginIncrease: 1.5,
+    sustainabilityScore: 87,
+    carbonFootprint: 5.8,
+    environmentalRating: 'B' as const
+  },
+
+  // WM005 - TCL TV alternatives (limited - Chinese brand)
+  {
+    id: 'SUP014',
+    country: 'Mexico - Tijuana',
+    marginChange: -0.8,
+    distance: 2100,
+    transitDays: 7,
+    logisticsScore: 85,
+    isRecommended: true,
+    isDomestic: false,
+    tariffRate: 2.1,
+    supplierType: 'nafta',
+    supplierName: 'TCL Mexico Assembly',
+    capacity: 'Medium',
+    qualityScore: 89,
+    costPerUnit: 385.20,
+    annualSavings: -224000,
+    marginIncrease: -0.8,
+    sustainabilityScore: 79,
+    carbonFootprint: 4.5,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP015',
+    country: 'Thailand',
+    marginChange: -1.2,
+    distance: 8900,
+    transitDays: 19,
+    logisticsScore: 81,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 12.3,
+    supplierType: 'international',
+    supplierName: 'TCL Thailand',
+    capacity: 'High',
+    qualityScore: 87,
+    costPerUnit: 375.80,
+    annualSavings: -336000,
+    marginIncrease: -1.2,
+    sustainabilityScore: 75,
+    carbonFootprint: 8.1,
+    environmentalRating: 'C' as const
+  },
+
+  // WM006 - Nintendo alternatives (very limited)
+  {
+    id: 'SUP016',
+    country: 'United States - Washington',
+    marginChange: -2.5,
+    distance: 2800,
+    transitDays: 5,
+    logisticsScore: 93,
+    isRecommended: false,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'Nintendo of America (Assembly)',
+    capacity: 'Low',
+    qualityScore: 98,
+    costPerUnit: 285.50,
+    annualSavings: -875000,
+    marginIncrease: -2.5,
+    sustainabilityScore: 90,
+    carbonFootprint: 2.8,
+    environmentalRating: 'A' as const
+  },
+
+  // WM007 - Dell Desktop alternatives
+  {
+    id: 'SUP017',
+    country: 'United States - Texas',
+    marginChange: +1.8,
+    distance: 1200,
+    transitDays: 3,
+    logisticsScore: 95,
+    isRecommended: true,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'Dell Austin Manufacturing',
+    capacity: 'High',
+    qualityScore: 97,
+    costPerUnit: 485.20,
+    annualSavings: 396000,
+    marginIncrease: 1.8,
+    sustainabilityScore: 89,
+    carbonFootprint: 2.2,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP018',
+    country: 'Mexico - Guadalajara',
+    marginChange: +0.9,
+    distance: 1900,
+    transitDays: 6,
+    logisticsScore: 87,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Dell Mexico',
+    capacity: 'Medium',
+    qualityScore: 93,
+    costPerUnit: 465.80,
+    annualSavings: 198000,
+    marginIncrease: 0.9,
+    sustainabilityScore: 82,
+    carbonFootprint: 3.8,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP019',
+    country: 'Ireland',
+    marginChange: -0.5,
+    distance: 4200,
+    transitDays: 12,
+    logisticsScore: 88,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 5.2,
+    supplierType: 'international',
+    supplierName: 'Dell Ireland',
+    capacity: 'Medium',
+    qualityScore: 95,
+    costPerUnit: 475.30,
+    annualSavings: -110000,
+    marginIncrease: -0.5,
+    sustainabilityScore: 86,
+    carbonFootprint: 4.8,
+    environmentalRating: 'B' as const
+  },
+
+  // Apparel Suppliers
+
+  // WM008 - T-Shirts alternatives (many options)
+  {
+    id: 'SUP020',
     country: 'United States - North Carolina',
-    marginChange: +4.1,
+    marginChange: +5.1,
     distance: 800,
     transitDays: 2,
     logisticsScore: 98,
@@ -544,16 +944,16 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'High',
     qualityScore: 99,
     costPerUnit: 8.20,
-    annualSavings: 1025000,
-    marginIncrease: 4.1,
+    annualSavings: 1275000,
+    marginIncrease: 5.1,
     sustainabilityScore: 95,
     carbonFootprint: 1.2,
     environmentalRating: 'A' as const
   },
   {
-    id: 'SUP007',
-    country: 'Mexico',
-    marginChange: +1.8,
+    id: 'SUP021',
+    country: 'Mexico - Puebla',
+    marginChange: +2.8,
     distance: 1800,
     transitDays: 6,
     logisticsScore: 89,
@@ -565,18 +965,146 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'High',
     qualityScore: 91,
     costPerUnit: 6.80,
-    annualSavings: 450000,
-    marginIncrease: 1.8,
+    annualSavings: 700000,
+    marginIncrease: 2.8,
     sustainabilityScore: 84,
     carbonFootprint: 2.8,
     environmentalRating: 'B' as const
   },
-
-  // WM008 - Jeans alternatives
   {
-    id: 'SUP008',
+    id: 'SUP022',
+    country: 'Guatemala',
+    marginChange: +1.2,
+    distance: 2800,
+    transitDays: 9,
+    logisticsScore: 82,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.2,
+    supplierType: 'international',
+    supplierName: 'Central American Textiles',
+    capacity: 'Medium',
+    qualityScore: 85,
+    costPerUnit: 5.90,
+    annualSavings: 300000,
+    marginIncrease: 1.2,
+    sustainabilityScore: 76,
+    carbonFootprint: 5.4,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP023',
+    country: 'Honduras',
+    marginChange: +0.8,
+    distance: 3100,
+    transitDays: 10,
+    logisticsScore: 79,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.2,
+    supplierType: 'international',
+    supplierName: 'Honduras Textile Group',
+    capacity: 'High',
+    qualityScore: 83,
+    costPerUnit: 5.60,
+    annualSavings: 200000,
+    marginIncrease: 0.8,
+    sustainabilityScore: 74,
+    carbonFootprint: 5.8,
+    environmentalRating: 'C' as const
+  },
+  {
+    id: 'SUP024',
+    country: 'Dominican Republic',
+    marginChange: +1.5,
+    distance: 2200,
+    transitDays: 8,
+    logisticsScore: 84,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.2,
+    supplierType: 'international',
+    supplierName: 'Caribbean Textiles',
+    capacity: 'Medium',
+    qualityScore: 86,
+    costPerUnit: 6.10,
+    annualSavings: 375000,
+    marginIncrease: 1.5,
+    sustainabilityScore: 78,
+    carbonFootprint: 4.9,
+    environmentalRating: 'B' as const
+  },
+
+  // WM009 - Running Shoes alternatives
+  {
+    id: 'SUP025',
+    country: 'Indonesia',
+    marginChange: -0.5,
+    distance: 9200,
+    transitDays: 21,
+    logisticsScore: 81,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 18.5,
+    supplierType: 'international',
+    supplierName: 'PT Indonesia Footwear',
+    capacity: 'High',
+    qualityScore: 86,
+    costPerUnit: 28.50,
+    annualSavings: -97500,
+    marginIncrease: -0.5,
+    sustainabilityScore: 72,
+    carbonFootprint: 8.9,
+    environmentalRating: 'C' as const
+  },
+  {
+    id: 'SUP026',
+    country: 'Thailand',
+    marginChange: +0.3,
+    distance: 8900,
+    transitDays: 19,
+    logisticsScore: 83,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 12.3,
+    supplierType: 'international',
+    supplierName: 'Thai Footwear Manufacturing',
+    capacity: 'Medium',
+    qualityScore: 88,
+    costPerUnit: 30.20,
+    annualSavings: 58500,
+    marginIncrease: 0.3,
+    sustainabilityScore: 75,
+    carbonFootprint: 8.1,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP027',
+    country: 'Mexico - Leon',
+    marginChange: -1.2,
+    distance: 1600,
+    transitDays: 7,
+    logisticsScore: 86,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Leon Footwear Co.',
+    capacity: 'Medium',
+    qualityScore: 89,
+    costPerUnit: 32.80,
+    annualSavings: -234000,
+    marginIncrease: -1.2,
+    sustainabilityScore: 81,
+    carbonFootprint: 3.6,
+    environmentalRating: 'B' as const
+  },
+
+  // WM010 - Jeans alternatives
+  {
+    id: 'SUP028',
     country: 'United States - Texas',
-    marginChange: +2.9,
+    marginChange: +3.9,
     distance: 1200,
     transitDays: 3,
     logisticsScore: 95,
@@ -588,16 +1116,102 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'Medium',
     qualityScore: 97,
     costPerUnit: 22.50,
-    annualSavings: 1015000,
-    marginIncrease: 2.9,
+    annualSavings: 1365000,
+    marginIncrease: 3.9,
     sustainabilityScore: 91,
     carbonFootprint: 2.1,
     environmentalRating: 'A' as const
   },
   {
-    id: 'SUP009',
-    country: 'Guatemala',
+    id: 'SUP029',
+    country: 'Mexico - Torreon',
+    marginChange: +1.8,
+    distance: 1400,
+    transitDays: 6,
+    logisticsScore: 88,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Mexican Denim Co.',
+    capacity: 'High',
+    qualityScore: 92,
+    costPerUnit: 19.80,
+    annualSavings: 630000,
+    marginIncrease: 1.8,
+    sustainabilityScore: 83,
+    carbonFootprint: 3.2,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP030',
+    country: 'Nicaragua',
+    marginChange: +0.5,
+    distance: 3200,
+    transitDays: 11,
+    logisticsScore: 78,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.2,
+    supplierType: 'international',
+    supplierName: 'Nicaragua Apparel',
+    capacity: 'Medium',
+    qualityScore: 84,
+    costPerUnit: 17.20,
+    annualSavings: 175000,
+    marginIncrease: 0.5,
+    sustainabilityScore: 76,
+    carbonFootprint: 6.1,
+    environmentalRating: 'C' as const
+  },
+  {
+    id: 'SUP031',
+    country: 'Turkey',
+    marginChange: -0.8,
+    distance: 5800,
+    transitDays: 16,
+    logisticsScore: 85,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 18.7,
+    supplierType: 'international',
+    supplierName: 'Turkish Denim Mills',
+    capacity: 'High',
+    qualityScore: 90,
+    costPerUnit: 18.90,
+    annualSavings: -280000,
+    marginIncrease: -0.8,
+    sustainabilityScore: 82,
+    carbonFootprint: 7.2,
+    environmentalRating: 'B' as const
+  },
+
+  // WM012 - Denim Jacket alternatives
+  {
+    id: 'SUP032',
+    country: 'United States - California',
     marginChange: -1.2,
+    distance: 2200,
+    transitDays: 4,
+    logisticsScore: 93,
+    isRecommended: false,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'California Denim Works',
+    capacity: 'Low',
+    qualityScore: 95,
+    costPerUnit: 35.80,
+    annualSavings: -174000,
+    marginIncrease: -1.2,
+    sustainabilityScore: 89,
+    carbonFootprint: 2.5,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP033',
+    country: 'Guatemala',
+    marginChange: +0.8,
     distance: 2800,
     transitDays: 9,
     logisticsScore: 82,
@@ -605,22 +1219,154 @@ export const mockSuppliers: Supplier[] = [
     isDomestic: false,
     tariffRate: 8.2,
     supplierType: 'international',
-    supplierName: 'Central American Textiles',
+    supplierName: 'Guatemala Denim Co.',
     capacity: 'Medium',
-    qualityScore: 85,
-    costPerUnit: 18.90,
-    annualSavings: -420000,
-    marginIncrease: -1.2,
-    sustainabilityScore: 76,
-    carbonFootprint: 5.4,
+    qualityScore: 87,
+    costPerUnit: 28.50,
+    annualSavings: 116000,
+    marginIncrease: 0.8,
+    sustainabilityScore: 77,
+    carbonFootprint: 5.6,
     environmentalRating: 'B' as const
   },
 
-  // WM011 - Kitchen Knives alternatives
+  // WM013 - Kids Sneakers alternatives
   {
-    id: 'SUP010',
-    country: 'United States - Ohio',
+    id: 'SUP034',
+    country: 'United States - Maine',
     marginChange: +2.1,
+    distance: 1800,
+    transitDays: 4,
+    logisticsScore: 94,
+    isRecommended: true,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'New Balance Kids Division',
+    capacity: 'Medium',
+    qualityScore: 96,
+    costPerUnit: 24.80,
+    annualSavings: 352800,
+    marginIncrease: 2.1,
+    sustainabilityScore: 92,
+    carbonFootprint: 1.9,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP035',
+    country: 'Vietnam',
+    marginChange: +0.5,
+    distance: 8900,
+    transitDays: 19,
+    logisticsScore: 83,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 15.2,
+    supplierType: 'international',
+    supplierName: 'Vietnam Kids Footwear',
+    capacity: 'High',
+    qualityScore: 85,
+    costPerUnit: 18.20,
+    annualSavings: 84000,
+    marginIncrease: 0.5,
+    sustainabilityScore: 71,
+    carbonFootprint: 7.8,
+    environmentalRating: 'C' as const
+  },
+  {
+    id: 'SUP036',
+    country: 'Brazil',
+    marginChange: -0.8,
+    distance: 5200,
+    transitDays: 15,
+    logisticsScore: 79,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 22.1,
+    supplierType: 'international',
+    supplierName: 'Brazilian Footwear Co.',
+    capacity: 'Medium',
+    qualityScore: 88,
+    costPerUnit: 21.50,
+    annualSavings: -134400,
+    marginIncrease: -0.8,
+    sustainabilityScore: 74,
+    carbonFootprint: 6.9,
+    environmentalRating: 'C' as const
+  },
+
+  // WM014 - Yoga Pants alternatives
+  {
+    id: 'SUP037',
+    country: 'United States - North Carolina',
+    marginChange: +3.2,
+    distance: 800,
+    transitDays: 2,
+    logisticsScore: 98,
+    isRecommended: true,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'American Activewear',
+    capacity: 'Medium',
+    qualityScore: 97,
+    costPerUnit: 16.80,
+    annualSavings: 422400,
+    marginIncrease: 3.2,
+    sustainabilityScore: 94,
+    carbonFootprint: 1.4,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP038',
+    country: 'Mexico - Yucatan',
+    marginChange: +1.5,
+    distance: 2100,
+    transitDays: 7,
+    logisticsScore: 86,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Yucatan Textiles',
+    capacity: 'High',
+    qualityScore: 90,
+    costPerUnit: 14.20,
+    annualSavings: 198000,
+    marginIncrease: 1.5,
+    sustainabilityScore: 82,
+    carbonFootprint: 3.1,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP039',
+    country: 'Peru',
+    marginChange: +0.8,
+    distance: 4100,
+    transitDays: 13,
+    logisticsScore: 81,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 12.8,
+    supplierType: 'international',
+    supplierName: 'Peruvian Cotton Co.',
+    capacity: 'Medium',
+    qualityScore: 88,
+    costPerUnit: 13.50,
+    annualSavings: 105600,
+    marginIncrease: 0.8,
+    sustainabilityScore: 79,
+    carbonFootprint: 5.2,
+    environmentalRating: 'B' as const
+  },
+
+  // Home & Garden Suppliers
+
+  // WM015 - Kitchen Knives alternatives
+  {
+    id: 'SUP040',
+    country: 'United States - Ohio',
+    marginChange: +3.1,
     distance: 900,
     transitDays: 2,
     logisticsScore: 97,
@@ -632,62 +1378,104 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'Medium',
     qualityScore: 98,
     costPerUnit: 45.20,
-    annualSavings: 199500,
-    marginIncrease: 2.1,
+    annualSavings: 294500,
+    marginIncrease: 3.1,
     sustainabilityScore: 93,
     carbonFootprint: 1.5,
     environmentalRating: 'A' as const
   },
-
-  // WM021 - Tires alternatives
   {
-    id: 'SUP011',
-    country: 'United States - Ohio',
-    marginChange: +1.4,
-    distance: 850,
-    transitDays: 2,
-    logisticsScore: 96,
-    isRecommended: true,
-    isDomestic: true,
-    tariffRate: 0,
-    supplierType: 'domestic',
-    supplierName: 'Goodyear Tire & Rubber',
-    capacity: 'High',
-    qualityScore: 97,
-    costPerUnit: 89.50,
-    annualSavings: 259000,
-    marginIncrease: 1.4,
-    sustainabilityScore: 88,
-    carbonFootprint: 3.2,
-    environmentalRating: 'A' as const
-  },
-  {
-    id: 'SUP012',
-    country: 'Canada',
-    marginChange: +0.6,
-    distance: 1600,
-    transitDays: 4,
+    id: 'SUP041',
+    country: 'Germany',
+    marginChange: -1.8,
+    distance: 4800,
+    transitDays: 14,
     logisticsScore: 91,
     isRecommended: false,
     isDomestic: false,
-    tariffRate: 0.8,
-    supplierType: 'nafta',
-    supplierName: 'Michelin North America',
-    capacity: 'High',
-    qualityScore: 95,
-    costPerUnit: 85.20,
-    annualSavings: 111000,
-    marginIncrease: 0.6,
-    sustainabilityScore: 86,
-    carbonFootprint: 4.1,
+    tariffRate: 15.2,
+    supplierType: 'international',
+    supplierName: 'Zwilling J.A. Henckels',
+    capacity: 'Medium',
+    qualityScore: 99,
+    costPerUnit: 52.80,
+    annualSavings: -171000,
+    marginIncrease: -1.8,
+    sustainabilityScore: 88,
+    carbonFootprint: 5.8,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP042',
+    country: 'Japan',
+    marginChange: -2.5,
+    distance: 6200,
+    transitDays: 16,
+    logisticsScore: 89,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 8.2,
+    supplierType: 'international',
+    supplierName: 'Kai Corporation',
+    capacity: 'Low',
+    qualityScore: 99,
+    costPerUnit: 58.90,
+    annualSavings: -237500,
+    marginIncrease: -2.5,
+    sustainabilityScore: 85,
+    carbonFootprint: 6.8,
     environmentalRating: 'B' as const
   },
 
-  // WM014 - Storage Unit alternatives
+  // WM016 - Dinnerware alternatives
   {
-    id: 'SUP013',
+    id: 'SUP043',
+    country: 'Portugal',
+    marginChange: -0.8,
+    distance: 4200,
+    transitDays: 12,
+    logisticsScore: 87,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 18.7,
+    supplierType: 'international',
+    supplierName: 'Vista Alegre Porcelain',
+    capacity: 'Medium',
+    qualityScore: 94,
+    costPerUnit: 28.50,
+    annualSavings: -96000,
+    marginIncrease: -0.8,
+    sustainabilityScore: 84,
+    carbonFootprint: 5.2,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP044',
+    country: 'United States - Ohio',
+    marginChange: -2.1,
+    distance: 900,
+    transitDays: 2,
+    logisticsScore: 96,
+    isRecommended: false,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'Fiesta Tableware Company',
+    capacity: 'Low',
+    qualityScore: 96,
+    costPerUnit: 32.80,
+    annualSavings: -252000,
+    marginIncrease: -2.1,
+    sustainabilityScore: 90,
+    carbonFootprint: 2.1,
+    environmentalRating: 'A' as const
+  },
+
+  // WM018 - Storage Unit alternatives
+  {
+    id: 'SUP045',
     country: 'United States - Georgia',
-    marginChange: +2.5,
+    marginChange: +3.5,
     distance: 1000,
     transitDays: 3,
     logisticsScore: 95,
@@ -699,18 +1487,150 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'High',
     qualityScore: 96,
     costPerUnit: 25.80,
-    annualSavings: 205000,
-    marginIncrease: 2.5,
+    annualSavings: 287000,
+    marginIncrease: 3.5,
     sustainabilityScore: 90,
     carbonFootprint: 2.0,
     environmentalRating: 'A' as const
   },
-
-  // WM017 - Frozen Vegetables alternatives
   {
-    id: 'SUP014',
-    country: 'United States - California',
+    id: 'SUP046',
+    country: 'Mexico - Juarez',
+    marginChange: +1.8,
+    distance: 1600,
+    transitDays: 6,
+    logisticsScore: 87,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Mexican Furniture Manufacturing',
+    capacity: 'High',
+    qualityScore: 91,
+    costPerUnit: 22.50,
+    annualSavings: 147600,
+    marginIncrease: 1.8,
+    sustainabilityScore: 81,
+    carbonFootprint: 3.8,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP047',
+    country: 'Vietnam',
+    marginChange: +0.5,
+    distance: 8900,
+    transitDays: 19,
+    logisticsScore: 82,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 15.2,
+    supplierType: 'international',
+    supplierName: 'Vietnam Furniture Co.',
+    capacity: 'Medium',
+    qualityScore: 86,
+    costPerUnit: 19.80,
+    annualSavings: 41000,
+    marginIncrease: 0.5,
+    sustainabilityScore: 73,
+    carbonFootprint: 8.2,
+    environmentalRating: 'C' as const
+  },
+
+  // WM019 - Power Drill alternatives
+  {
+    id: 'SUP048',
+    country: 'United States - Wisconsin',
+    marginChange: +2.2,
+    distance: 1400,
+    transitDays: 3,
+    logisticsScore: 96,
+    isRecommended: true,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'Milwaukee Tool',
+    capacity: 'High',
+    qualityScore: 98,
+    costPerUnit: 65.80,
+    annualSavings: 259600,
+    marginIncrease: 2.2,
+    sustainabilityScore: 91,
+    carbonFootprint: 2.2,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP049',
+    country: 'Germany',
+    marginChange: -1.5,
+    distance: 4800,
+    transitDays: 14,
+    logisticsScore: 90,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 15.2,
+    supplierType: 'international',
+    supplierName: 'Robert Bosch GmbH',
+    capacity: 'High',
+    qualityScore: 99,
+    costPerUnit: 72.50,
+    annualSavings: -177000,
+    marginIncrease: -1.5,
+    sustainabilityScore: 89,
+    carbonFootprint: 5.9,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP050',
+    country: 'Czech Republic',
+    marginChange: +0.8,
+    distance: 4600,
+    transitDays: 13,
+    logisticsScore: 88,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 18.7,
+    supplierType: 'international',
+    supplierName: 'Czech Tool Manufacturing',
+    capacity: 'Medium',
+    qualityScore: 93,
+    costPerUnit: 58.20,
+    annualSavings: 94400,
+    marginIncrease: 0.8,
+    sustainabilityScore: 83,
+    carbonFootprint: 6.1,
+    environmentalRating: 'B' as const
+  },
+
+  // Food & Beverage Suppliers
+
+  // WM021 - Coffee alternatives
+  {
+    id: 'SUP051',
+    country: 'Brazil',
     marginChange: -0.8,
+    distance: 5200,
+    transitDays: 15,
+    logisticsScore: 84,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 22.1,
+    supplierType: 'international',
+    supplierName: 'Brazilian Coffee Cooperative',
+    capacity: 'High',
+    qualityScore: 89,
+    costPerUnit: 12.80,
+    annualSavings: -148000,
+    marginIncrease: -0.8,
+    sustainabilityScore: 78,
+    carbonFootprint: 6.2,
+    environmentalRating: 'B' as const
+  },
+
+  // WM022 - Frozen Vegetables alternatives
+  {
+    id: 'SUP052',
+    country: 'United States - California',
+    marginChange: -1.2,
     distance: 1800,
     transitDays: 4,
     logisticsScore: 92,
@@ -722,18 +1642,39 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'Medium',
     qualityScore: 94,
     costPerUnit: 3.20,
-    annualSavings: -224000,
-    marginIncrease: -0.8,
+    annualSavings: -336000,
+    marginIncrease: -1.2,
     sustainabilityScore: 88,
     carbonFootprint: 1.8,
     environmentalRating: 'A' as const
   },
-
-  // WM018 - Canned Tomatoes alternatives
   {
-    id: 'SUP015',
+    id: 'SUP053',
+    country: 'Canada - Ontario',
+    marginChange: -0.5,
+    distance: 1600,
+    transitDays: 5,
+    logisticsScore: 90,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 0.8,
+    supplierType: 'nafta',
+    supplierName: 'Canadian Frozen Foods',
+    capacity: 'High',
+    qualityScore: 92,
+    costPerUnit: 2.95,
+    annualSavings: -140000,
+    marginIncrease: -0.5,
+    sustainabilityScore: 86,
+    carbonFootprint: 2.8,
+    environmentalRating: 'A' as const
+  },
+
+  // WM023 - Canned Tomatoes alternatives
+  {
+    id: 'SUP054',
     country: 'United States - California',
-    marginChange: -1.5,
+    marginChange: -2.1,
     distance: 2200,
     transitDays: 5,
     logisticsScore: 90,
@@ -745,22 +1686,45 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'Medium',
     qualityScore: 92,
     costPerUnit: 2.80,
-    annualSavings: -330000,
-    marginIncrease: -1.5,
+    annualSavings: -462000,
+    marginIncrease: -2.1,
     sustainabilityScore: 85,
     carbonFootprint: 2.2,
     environmentalRating: 'A' as const
   },
-
-  // WM020 - Battery alternatives
   {
-    id: 'SUP016',
+    id: 'SUP055',
+    country: 'Spain',
+    marginChange: -0.8,
+    distance: 4100,
+    transitDays: 11,
+    logisticsScore: 86,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 18.7,
+    supplierType: 'international',
+    supplierName: 'Spanish Tomato Co.',
+    capacity: 'High',
+    qualityScore: 90,
+    costPerUnit: 2.45,
+    annualSavings: -176000,
+    marginIncrease: -0.8,
+    sustainabilityScore: 82,
+    carbonFootprint: 4.8,
+    environmentalRating: 'B' as const
+  },
+
+  // Automotive Suppliers
+
+  // WM025 - Battery alternatives
+  {
+    id: 'SUP056',
     country: 'United States - Michigan',
-    marginChange: -0.5,
+    marginChange: +0.8,
     distance: 1200,
     transitDays: 3,
     logisticsScore: 94,
-    isRecommended: false,
+    isRecommended: true,
     isDomestic: true,
     tariffRate: 0,
     supplierType: 'domestic',
@@ -768,11 +1732,118 @@ export const mockSuppliers: Supplier[] = [
     capacity: 'High',
     qualityScore: 95,
     costPerUnit: 125.80,
-    annualSavings: -110000,
-    marginIncrease: -0.5,
+    annualSavings: 176000,
+    marginIncrease: 0.8,
     sustainabilityScore: 87,
     carbonFootprint: 3.5,
     environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP057',
+    country: 'Mexico - Reynosa',
+    marginChange: -0.2,
+    distance: 1500,
+    transitDays: 6,
+    logisticsScore: 88,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Mexican Battery Co.',
+    capacity: 'Medium',
+    qualityScore: 91,
+    costPerUnit: 118.50,
+    annualSavings: -44000,
+    marginIncrease: -0.2,
+    sustainabilityScore: 82,
+    carbonFootprint: 4.2,
+    environmentalRating: 'B' as const
+  },
+
+  // WM026 - Tires alternatives (many options)
+  {
+    id: 'SUP058',
+    country: 'United States - Ohio',
+    marginChange: +2.4,
+    distance: 850,
+    transitDays: 2,
+    logisticsScore: 96,
+    isRecommended: true,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'Goodyear Tire & Rubber',
+    capacity: 'High',
+    qualityScore: 97,
+    costPerUnit: 89.50,
+    annualSavings: 444000,
+    marginIncrease: 2.4,
+    sustainabilityScore: 88,
+    carbonFootprint: 3.2,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP059',
+    country: 'United States - South Carolina',
+    marginChange: +2.1,
+    distance: 1100,
+    transitDays: 3,
+    logisticsScore: 95,
+    isRecommended: false,
+    isDomestic: true,
+    tariffRate: 0,
+    supplierType: 'domestic',
+    supplierName: 'Michelin North America',
+    capacity: 'High',
+    qualityScore: 98,
+    costPerUnit: 92.80,
+    annualSavings: 388500,
+    marginIncrease: 2.1,
+    sustainabilityScore: 90,
+    carbonFootprint: 3.0,
+    environmentalRating: 'A' as const
+  },
+  {
+    id: 'SUP060',
+    country: 'Canada - Ontario',
+    marginChange: +1.2,
+    distance: 1600,
+    transitDays: 4,
+    logisticsScore: 91,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 0.8,
+    supplierType: 'nafta',
+    supplierName: 'Canadian Tire Manufacturing',
+    capacity: 'High',
+    qualityScore: 95,
+    costPerUnit: 85.20,
+    annualSavings: 222000,
+    marginIncrease: 1.2,
+    sustainabilityScore: 86,
+    carbonFootprint: 4.1,
+    environmentalRating: 'B' as const
+  },
+  {
+    id: 'SUP061',
+    country: 'Mexico - Guadalajara',
+    marginChange: +0.8,
+    distance: 1900,
+    transitDays: 7,
+    logisticsScore: 87,
+    isRecommended: false,
+    isDomestic: false,
+    tariffRate: 1.5,
+    supplierType: 'nafta',
+    supplierName: 'Continental Tire Mexico',
+    capacity: 'Medium',
+    qualityScore: 93,
+    costPerUnit: 82.50,
+    annualSavings: 148000,
+    marginIncrease: 0.8,
+    sustainabilityScore: 83,
+    carbonFootprint: 4.8,
+    environmentalRating: 'B' as const
   }
 ];
 
