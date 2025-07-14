@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { BarChart3, Bell, Download, Settings } from 'lucide-react';
+import { BarChart3, Bell, Download, Settings, Search, User } from 'lucide-react';
 
 const Header: React.FC = () => {
   const location = useLocation();
@@ -13,21 +13,27 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-14 sm:h-16">
-          <div className="flex items-center space-x-4 sm:space-x-8">
-            <div className="flex items-center space-x-2 sm:space-x-3">
-              <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center shadow-sm">
-                <div className="relative">
-                  <div className="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-sm transform rotate-45"></div>
-                  <div className="absolute -top-0.5 -left-0.5 w-2 h-2 sm:w-2.5 sm:h-2.5 bg-yellow-400 rounded-full"></div>
+    <header className="bg-white border-b border-gray-300 shadow-sm">
+      <div className="max-w-full mx-auto px-6">
+        <div className="flex justify-between items-center h-16">
+          {/* Left side - Logo and Navigation */}
+          <div className="flex items-center space-x-8">
+            {/* Logo */}
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                <div className="w-4 h-4 bg-white rounded-sm transform rotate-12"></div>
+              </div>
+              <div>
+                <h1 className="text-xl font-semibold text-gray-900">Walmart SourceSafe</h1>
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <span className="text-xs text-gray-600 font-medium">SOURCING INTELLIGENCE</span>
                 </div>
               </div>
-              <h1 className="text-lg sm:text-xl font-bold text-gray-900">SourceSafe</h1>
             </div>
             
-            <nav className="hidden sm:flex space-x-6">
+            {/* Navigation */}
+            <nav className="hidden lg:flex space-x-1">
               {navItems.map((item) => {
                 const Icon = item.icon;
                 const isActive = location.pathname === item.path;
@@ -36,10 +42,10 @@ const Header: React.FC = () => {
                   <Link
                     key={item.path}
                     to={item.path}
-                    className={`flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                    className={`flex items-center space-x-2 px-4 py-2 text-sm font-medium transition-colors ${
                       isActive
-                        ? 'bg-blue-100 text-blue-700'
-                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                        ? 'text-blue-700 bg-blue-50 border-b-2 border-blue-700'
+                        : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
                     }`}
                   >
                     <Icon className="h-4 w-4" />
@@ -50,16 +56,28 @@ const Header: React.FC = () => {
             </nav>
           </div>
           
-          <div className="flex items-center space-x-2 sm:space-x-4">
-            <span className="hidden sm:block text-sm text-gray-600">Walmart Sourcing Team</span>
-            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-              <span className="text-xs font-semibold text-gray-900">W</span>
+          {/* Right side - Search and User */}
+          <div className="flex items-center space-x-4">
+            <div className="hidden md:flex items-center space-x-3">
+              <Search className="h-4 w-4 text-gray-500" />
+              <input
+                type="text"
+                placeholder="Search SKUs..."
+                className="w-64 px-3 py-1.5 text-sm border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+              />
+            </div>
+            
+            <div className="flex items-center space-x-3">
+              <span className="text-sm text-gray-700 font-medium">Sourcing Team</span>
+              <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                <span className="text-sm font-semibold text-white">W</span>
+              </div>
             </div>
           </div>
         </div>
         
         {/* Mobile Navigation */}
-        <div className="sm:hidden border-t border-gray-200">
+        <div className="lg:hidden border-t border-gray-200">
           <nav className="flex space-x-1 py-2 overflow-x-auto">
             {navItems.map((item) => {
               const Icon = item.icon;
@@ -69,10 +87,10 @@ const Header: React.FC = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`flex items-center space-x-1 px-2 py-1 rounded-md text-xs font-medium transition-colors whitespace-nowrap ${
+                  className={`flex items-center space-x-1 px-3 py-2 text-xs font-medium transition-colors whitespace-nowrap ${
                     isActive
-                      ? 'bg-blue-100 text-blue-700'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                      ? 'text-blue-700 bg-blue-50'
+                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
                   }`}
                 >
                   <Icon className="h-3 w-3" />

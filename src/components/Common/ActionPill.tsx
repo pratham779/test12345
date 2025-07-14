@@ -1,4 +1,5 @@
 import React from 'react';
+import { AlertTriangle, Eye, CheckCircle } from 'lucide-react';
 
 interface ActionPillProps {
   action: 'shift' | 'monitor' | 'maintain';
@@ -9,26 +10,33 @@ const ActionPill: React.FC<ActionPillProps> = ({ action, size = 'md' }) => {
   const getActionStyles = () => {
     switch (action) {
       case 'shift':
-        return 'bg-red-100 text-red-800 border-red-200';
+        return {
+          bg: 'bg-red-50',
+          text: 'text-red-800',
+          border: 'border-red-200',
+          icon: AlertTriangle
+        };
       case 'monitor':
-        return 'bg-yellow-100 text-yellow-800 border-yellow-200';
+        return {
+          bg: 'bg-amber-50',
+          text: 'text-amber-800',
+          border: 'border-amber-200',
+          icon: Eye
+        };
       case 'maintain':
-        return 'bg-green-100 text-green-800 border-green-200';
+        return {
+          bg: 'bg-green-50',
+          text: 'text-green-800',
+          border: 'border-green-200',
+          icon: CheckCircle
+        };
       default:
-        return 'bg-gray-100 text-gray-800 border-gray-200';
-    }
-  };
-
-  const getActionIcon = () => {
-    switch (action) {
-      case 'shift':
-        return '🔄';
-      case 'monitor':
-        return '👁️';
-      case 'maintain':
-        return '✅';
-      default:
-        return '⚪';
+        return {
+          bg: 'bg-gray-50',
+          text: 'text-gray-800',
+          border: 'border-gray-200',
+          icon: CheckCircle
+        };
     }
   };
 
@@ -37,21 +45,23 @@ const ActionPill: React.FC<ActionPillProps> = ({ action, size = 'md' }) => {
       case 'shift':
         return 'Shift Sourcing';
       case 'monitor':
-        return 'Monitor Closely';
+        return 'Monitor';
       case 'maintain':
-        return 'Maintain Current';
+        return 'Maintain';
       default:
         return action;
     }
   };
 
   const sizeClasses = size === 'sm' ? 'px-2 py-1 text-xs' : 'px-3 py-1.5 text-sm';
+  const styles = getActionStyles();
+  const Icon = styles.icon;
 
   return (
     <span
-      className={`inline-flex items-center space-x-1 ${sizeClasses} font-medium rounded-full border ${getActionStyles()}`}
+      className={`inline-flex items-center space-x-1 ${sizeClasses} font-medium rounded border ${styles.bg} ${styles.text} ${styles.border}`}
     >
-      <span>{getActionIcon()}</span>
+      <Icon className="h-3 w-3" />
       <span>{getActionText()}</span>
     </span>
   );
